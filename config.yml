@@ -1,0 +1,25 @@
+
+application:
+  name: MyWebApp
+  version: 1.0.0
+
+server:
+  host: 127.0.0.1
+  port: 8080
+
+database:
+  type: postgresql
+  host: db.mywebapp.com
+  port: 5432
+  username: dbuser
+  password: securepassword
+  name: mywebapp_db
+
+logging:
+  level: INFO
+  file: /var/log/mywebapp.log
+
+features:
+  registration: true
+  social_login: false
+  email_notifications: true
